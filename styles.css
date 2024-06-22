@@ -61,14 +61,14 @@ button:hover {
     font-size: 18px;
     font-weight: bold;
 }
-/* CSS for the button container */
+
 #score + div {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px; /* Adjust as needed */
+    margin-top: 10px; 
 }
 
-/* CSS for the buttons */
+
 #score + div button {
     padding: 5px 10px;
     background-color: #007bff;

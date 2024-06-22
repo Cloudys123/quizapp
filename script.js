@@ -84,7 +84,7 @@ function displayScore() {
         const reviewButton = document.createElement('button');
         reviewButton.textContent = 'Review Answers';
         reviewButton.addEventListener('click', () => {
-            window.location.href = 'answers.html'; // Replace 'answers.html' with the actual page name for reviewing answers
+            window.location.href = 'answers.html';
         });
         buttonContainer.appendChild(reviewButton); // Add the button to the container
     }
